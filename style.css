@@ -36,14 +36,12 @@ h1,h2,h3,p {
     -o-transition: 1s ease-in;
 }
 .layer a{
-    color: white;
-    
-    
+    color: white;    
 }
 .layer a h5:hover{
     
-    color: #0082C6;
-    border-bottom: 1px solid#0082C6;
+    color: #ffffff;
+    border-bottom: 1px solid#4b4a4a;
     
 }
 .bg{
@@ -52,7 +50,11 @@ h1,h2,h3,p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+   
+}
+.aboutbg{
+     margin-top: 20vh;
    
 }
 nav{
@@ -215,12 +217,28 @@ nav{
 
 
 .ad-2{
+    position: relative;
     height: 40vh;
-    background-image: url('https://images.unsplash.com/photo-1599393351447-f42facbd0d3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1599393351447-f42facbd0d3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
+    background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.ad-2 h1{
+    background: black;
+    padding: 1rem;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .wedo{
     display: flex;
@@ -281,6 +299,7 @@ nav{
 }
 
 .contact h5:hover{
+    
     transition: 1s;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -295,3 +314,22 @@ nav{
 
 
 
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    /*box-shadow: 1px solid black;
+    */:;
+}
