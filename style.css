@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     overflow-x: hidden;
@@ -51,10 +52,11 @@ h1,h2,h3,p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+   
 }
 nav{
-    width: 100vw;
+   
     background-color:white;
     display: flex;
     justify-content: space-between;
@@ -290,3 +292,6 @@ nav{
     -ms-transition: 1s;
     -o-transition: 1s;
 }
+
+
+
