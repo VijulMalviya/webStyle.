@@ -325,5 +325,11 @@ nav{
     background-size: cover;
     width: 300px;
     height: 300px;
-
-  }
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    /*box-shadow: 1px solid black;
+    */:;
+}
