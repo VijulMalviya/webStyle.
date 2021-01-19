@@ -6,6 +6,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
 ::selection{
     background-color: #0082C6;
     color: white;
@@ -15,10 +21,10 @@ h1,h2,h3,p {
 }
 .layer{
     
-    
+
     height: 100vh;
     background-color: black;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     left: -100%;
     transition: 1s ease-in;
@@ -27,9 +33,20 @@ h1,h2,h3,p {
     -ms-transition: 1s ease-in;
     -o-transition: 1s ease-in;
 }
+.layer a{
+    color: white;
+    
+    
+}
+.layer a h5:hover{
+    
+    color: #0082C6;
+    border-bottom: 1px solid#0082C6;
+    
+}
 .bg{
     height: 100vh;
-    background-image: url('./images/bg.png');
+    /* background-image: url('https://images.unsplash.com/photo-1566694271474-27e7b2de5c16?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,7 +54,7 @@ h1,h2,h3,p {
 }
 nav{
     
-    background-color:transparent;
+    background-color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,7 +155,7 @@ nav{
 }
 
 .about-box{
-    box-shadow: 0px 15px 17px #00000017;
+    /* box-shadow: 0px 15px 17px #00000017; */
     cursor: pointer;
 }
 .box-1:hover{
@@ -184,13 +201,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.service-box , .card{
+/* .service-box , .card{
     box-shadow: 0px 15px 17px #00000017;
-}
-.service-box h4 , .wedo h5 , .ad-3 h4, .ad-3 p , .ad-5 h4{
+} */
+.service-box h5 , .wedo h5 , .ad-3 h4, .ad-3 p , .ad-5 h4{
    
     color: #0082C6 ;
-    text-shadow: 0px 8px 10px #0081c646;
+    text-shadow: 0px 8px 10px #0081c625;
 }
 
 
@@ -220,7 +237,7 @@ nav{
     box-shadow: 0px 8px 10px #0081c646;
 }
 .ad-3 , .ad-5{
-    background-image: radial-gradient(#FFFFFF, #D7F0FE);
+    /* background-image: radial-gradient(#FFFFFF, #D7F0FE); */
 }
 .ad-5 h5{
     color: #484646;   
@@ -233,11 +250,11 @@ nav{
 }
 .ad-5 .btn {
     color: #0082C6 ;
-    text-shadow: 0px 8px 10px #0081c646;
+    text-shadow: 0px 8px 10px #0081c638;
     border: 3px solid #0082C6;
    
     background-color: transparent;
-    box-shadow: 0px 8px 10px #0081c646;
+    box-shadow: 0px 8px 10px #0081c627;
 }
 
 .ad-4 .btn {
@@ -245,4 +262,24 @@ nav{
     color: #90C404;
     background-color: #fff;
     box-shadow: 0px 8px 10px  #91c4042a;
+}
+.footer-icon a{
+    color: #484646 ;
+}
+.footer-icon i:hover{
+    transition: 1s;
+    color: #0082C6;
+    transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -moz-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.contact:hover{
+    color: #484646;
 }
