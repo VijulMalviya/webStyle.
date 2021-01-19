@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 body{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 a{
@@ -23,7 +24,7 @@ h1,h2,h3,p {
     
 
     height: 100vh;
-    background-color: black;
+    background-color: rgb(0, 30, 68);
     position: fixed;
     z-index: 9999;
     left: -100%;
@@ -53,7 +54,7 @@ h1,h2,h3,p {
     background-attachment: fixed;
 }
 nav{
-    
+    width: 100vw;
     background-color:white;
     display: flex;
     justify-content: space-between;
@@ -236,9 +237,6 @@ nav{
 .card:hover{
     box-shadow: 0px 8px 10px #0081c646;
 }
-.ad-3 , .ad-5{
-    /* background-image: radial-gradient(#FFFFFF, #D7F0FE); */
-}
 .ad-5 h5{
     color: #484646;   
   text-shadow: 0px 8px 10px #0000002d;
@@ -280,6 +278,15 @@ nav{
     -o-transition: 1s;
 }
 
-.contact:hover{
-    color: #484646;
+.contact h5:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }

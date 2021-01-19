@@ -1,3 +1,5 @@
+AOS.init();
+
 $('.nav-circle').click(() =>{
 
     $('.layer').css("left","0%");
@@ -15,3 +17,4 @@ function scrollFunction() {
     $("nav").css("background-color","transparent")
   }
 }
+
