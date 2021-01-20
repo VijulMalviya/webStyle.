@@ -18,6 +18,27 @@ a{
     background-color: #0082C6;
     color: white;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(212, 212, 212);
+   
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(155, 155, 155);
+  }
 h1,h2,h3,p {
     margin-bottom: 0rem;
 }
@@ -330,6 +351,6 @@ nav{
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
-    /*box-shadow: 1px solid black;
-    */:;
+    
+    ;
 }
